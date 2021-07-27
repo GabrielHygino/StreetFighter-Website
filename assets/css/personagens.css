@@ -1,0 +1,53 @@
+.personagens{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.personagens > .personagens-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.personagens > h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #212529;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+.personagens > .personagens-container .personagem-item img{
+    width: 100%;
+    height: auto;
+    max-height: 16rem;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+} 
+
+@media (min-width: 641px){
+    .personagens > .personagens-container .personagens-item{
+        
+        max-width: 480px;
+        
+    }
+}
+
+
+
+
