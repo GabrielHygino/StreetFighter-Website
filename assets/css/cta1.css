@@ -1,0 +1,56 @@
+.cta1{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    height: 100vh;
+    width: 100%;
+    background-color: #f1a90d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta1 > h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #212529;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+.cta1 p{
+    color: #212529;
+    font-size: 2rem;
+    text-align: start;
+    font-weight: 200;
+}
+
+.cta1 .p-container{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.cta1 .p-container .p-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.button-cta{
+    text-align: center;
+    width: 8rem;
+    height: 4rem;
+    cursor: pointer;
+    background-color: #212529;
+    color: #FFF;
+    border-radius: 0.5rem;
+}
