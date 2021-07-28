@@ -1,6 +1,6 @@
 .cta1{
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     height: 100vh;
     width: 100%;
     background-color: #f1a90d;
@@ -47,10 +47,23 @@
 
 .button-cta{
     text-align: center;
-    width: 8rem;
-    height: 4rem;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem 2rem;
     cursor: pointer;
     background-color: #212529;
-    color: #FFF;
     border-radius: 0.5rem;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.cta1 > .button-cta .fas{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
