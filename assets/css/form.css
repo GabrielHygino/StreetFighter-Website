@@ -1,0 +1,62 @@
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.form > h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.formulario{
+    width: 100%; 
+    border-radius: none;
+}
+
+input{
+    width: 100%;
+    border: 0;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;  
+}
+
+fieldset{
+    border: 0;    
+}
+
+form{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.feedback{
+    padding-bottom: 4rem;
+}
+
+label {
+    color: #586075;
+    font-weight: 400;      
+    font-size: 22px;
+  }
+
+.send{
+    background-color: #f1a90d;
+    color: #fff;
+    font-weight: 200;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    margin-right: auto;
+    margin-left: 5rem;
+}

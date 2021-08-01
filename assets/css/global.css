@@ -25,13 +25,13 @@ html{
 
 .fas{
     color: black;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 32px;
 }
 
 .linetop, .linebottom{    
-    width: 12%;
+    width: 8%;
     height: 4px;
     background-color: black;
 }

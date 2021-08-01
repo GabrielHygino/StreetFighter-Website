@@ -1,7 +1,7 @@
 .cta1{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    height: 100vh;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    height: auto;
     width: 100%;
     background-color: #f1a90d;
     display: flex;
@@ -34,7 +34,7 @@
     padding-right: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    
     padding-bottom: 2rem;
 }
 
@@ -55,7 +55,7 @@
     background-color: #212529;
     border-radius: 0.5rem;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: sans-serif;
 }
 
