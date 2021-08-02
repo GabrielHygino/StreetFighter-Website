@@ -50,13 +50,18 @@
     border: none;
     color: #fff;
     font-weight: 700;
-    padding: 1rem 2rem;
-    cursor: pointer;
+    padding: 1rem 2rem;  
     background-color: #212529;
     border-radius: 0.5rem;
     font-size: 25px;
     font-weight: 400;
     font-family: sans-serif;
+    transition: background-color 0.5s;
+}
+
+.button-cta:hover{
+    background-color: #0b0d0e;
+    cursor: pointer;
 }
 
 .cta1 > .button-cta .fas{
