@@ -1,5 +1,5 @@
 
-#StreetFighter-website
+# StreetFighter-website
 
 ## This is my responsive website, to learn more about HTML and CSS technologies, developed during the Heroway course.
 
